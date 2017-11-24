@@ -1,0 +1,354 @@
+html, body, div{
+    margin: 0;
+    height: 0;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    position: relative;
+    background-color: #00ADEF;
+}
+
+.background{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 1200px;
+    height: 500px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 4px solid #fff;
+    background-color: #00A650;
+    overflow: hidden;
+}
+
+.background div{
+    opacity: 0;
+    -webkit-transition: opacity 1.8s;
+    -moz-transition: opacity 1.8s;
+    -ms-transition: opacity 1.8s;
+    -o-transition: opacity 1.8s;
+    transition: opacity 1.8s;
+}
+
+.background-ready div{
+    opacity: 1;
+}
+
+.middle-line{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 4px;
+    height: 500px;
+    background-color: #fff;
+}
+
+.middle-circle{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 4px solid #fff;
+    border-radius: 50%;
+    background-color: #E91E24;
+}
+
+.left-semi-circle{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -50px;
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 4px solid #fff;
+    border-radius:0 400px 400px 0;
+}
+
+.left-trapezoid{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width:300px;
+    height:150px;
+    border: 4px solid #fff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-border-radius: 0 200px 200px 0;
+    -moz-border-radius: 0 200px 200px 0;
+    border-radius: 0 200px 200px 0;
+    border-left:none;
+    background-color: #E91E24;
+}
+
+.left-trapezoid-circle{
+    position: absolute;
+    top: 0;
+    left: 230px;
+    bottom: 0;
+    margin: auto;
+    width: 75px;
+    height: 150px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 4px solid #fff;
+    -webkit-border-radius: 0 75px 75px 0;
+    -moz-border-radius: 0 75px 75px 0;
+    border-radius: 0 75px 75px 0;
+    background-color: #00A650;
+}
+
+.left-trapezoid-circle-dotted{
+    position: absolute;
+    top: 0;
+    left: 160px;
+    bottom: 0;
+    margin: auto;
+    width: 75px;
+    height: 150px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 4px solid #fff;
+    -webkit-border-radius: 75px 0 0 75px;
+    -moz-border-radius: 75px 0 0 75px;
+    border-radius: 75px 0 0 75px;
+}
+
+.right-semi-circle{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -50px;
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 4px solid #fff;
+    border-radius: 400px 0 0 400px;
+}
+
+.right-trapezoid{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width:300px;
+    height:150px;
+    border: 4px solid #fff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-border-radius: 200px 0 0 200px;
+    -moz-border-radius: 200px 0 0 200px;
+    border-radius: 200px 0 0 200px;
+    border-right:none;
+    background-color: #E91E24;
+}
+
+.right-trapezoid-circle{
+    position: absolute;
+    top: 0;
+    right: 230px;
+    bottom: 0;
+    margin: auto;
+    width: 75px;
+    height: 150px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 4px solid #fff;
+    -webkit-border-radius: 75px 0 0 75px;
+    -moz-border-radius: 75px 0 0 75px;
+    border-radius: 75px 0 0 75px;
+    background-color: #00A650;
+}
+
+.right-trapezoid-circle-dotted{
+    position: absolute;
+    top: 0;
+    right: 160px;
+    bottom: 0;
+    margin: auto;
+    width: 75px;
+    height: 150px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 4px solid #fff;
+    -webkit-border-radius: 0 75px 75px 0;
+    -moz-border-radius: 0 75px 75px 0;
+    border-radius: 0 75px 75px 0;
+}
+
+.match{
+    position: absolute;
+    top: -500px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 1200px;
+    height: 500px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+    -webkit-transition: top 1.2s;
+    -moz-transition: top 1.2s;
+    -ms-transition: top 1.2s;
+    -o-transition: top 1.2s;
+    transition: top 1.2s;
+}
+
+.ball-box{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 1192px;
+    height: 492px;
+}
+
+.match-ready{
+    top: 0;
+}
+
+.match div{
+    position: absolute;
+    width: 130px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    box-shadow: 4px 4px 4px #333;
+    color: #fff;
+}
+
+.west1{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background-color: #000;
+}
+
+.west2,.east2{
+    top: 0;
+    bottom: 0;
+    margin:auto;
+    background-color: #333;
+}
+
+.west2{
+    left: 360px;
+}
+
+.east2{
+    right: 360px;
+}
+
+.west3,.east3{
+    position: absolute;
+    top: 100px;
+    background-color: #666;
+}
+
+.west3{
+    left:190px;
+}
+
+.east3{
+    right: 190px;
+}
+
+.west4,.east4{
+    position: absolute;
+    bottom: 100px;
+    background-color: #666;
+}
+
+.west4{
+    left:190px;
+}
+
+.east4{
+    right: 190px;
+}
+
+.west5,.east5,.west6,.east6,.west7,.east7,.west8,.east8{
+    position: absolute;
+    background-color: #888;
+}
+
+.west5{
+    top: 50px;
+    left:20px;
+}
+
+.east5{
+    top: 50px;
+    right: 20px;
+}
+
+.west6{
+    top: 150px;
+    left:20px;
+}
+
+.east6{
+    top: 150px;
+    right: 20px;
+}
+
+.west7{
+    bottom: 50px;
+    left:20px;
+}
+
+.east7{
+    bottom: 50px;
+    right: 20px;
+}
+
+.west8{
+    bottom: 150px;
+    left:20px;
+}
+
+.east8{
+    bottom: 150px;
+    right: 20px;
+}
