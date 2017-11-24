@@ -23,5 +23,16 @@ getHTTPObject: function () {
                 return false;
             }
         return new XMLHttpRequest();
-    },
+    }
+
+     getSchedule: function () {
+            var request = schedule.getHTTPObject();
+            if (request) {
+                request.open("GET", "match.json", true);
+                request.onreadystatechange = function () {}
+                request.send(null);
+            } else {
+                alert("Sorry, your browser doesn\'t support XMLHttpRequest");
+            }
+        }
 2.border-radius的巧用，画圆，画半圆等；
