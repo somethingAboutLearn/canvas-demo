@@ -1,6 +1,6 @@
 # canvas-demo
 ## 画布
-url：https://university-notes.github.io/canvas-demo/NBA-battle/
+url：https://somethingaboutlearn.github.io/canvas-demo/
 
 * Ajax请求外部json数据；
 
